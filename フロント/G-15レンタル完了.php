@@ -31,7 +31,7 @@ try {
 <body>
 <?php // require 'header.php'; // ヘッダー部分は共通部品として必要に応じて追加 ?> 
 
-    <img src="ニシムラOnline2.png" alt="ニシムラOnline" class="logo-image">
+    <img src="img/NishimuraOnline.png" alt="ニシムラOnline" class="logo-image">
 
     <div class="message-area">
         レンタルが完了しました！

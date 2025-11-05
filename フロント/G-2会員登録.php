@@ -10,7 +10,7 @@
 <body>
 
   <!-- 🔵 ロゴ部分 -->
-  <img src="../img/ニシムラOnline.png" alt="企業ロゴ" class="logo">
+  <img src="../img/NishimuraOnline.png" alt="企業ロゴ" class="logo">
 
   <form method="post" action="/register">
     <h1>会員登録</h1>
@@ -33,7 +33,7 @@
 
       <p>
         すでにアカウントをお持ちの方は<br>
-        <a href="G-1.html">ログインはこちら</a>
+        <a href="G-1.php">ログインはこちら</a>
       </p>
     </fieldset>
   </form>

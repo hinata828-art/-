@@ -1,10 +1,4 @@
 <?php
-// DB接続情報
-const SERVER = 'mysql324.phy.lolipop.lan';
-const DBNAME = 'LAA1607504-nishimura';
-const USER = 'LAA1607504';
-const PASS = 'nishimura12345';
-
 $connect = 'mysql:host='. SERVER . ';dbname='. DBNAME . ';charset=utf8';
 $delivery_days = '未定'; // 初期値（エラー時の表示用）
 

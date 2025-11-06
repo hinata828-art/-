@@ -12,17 +12,17 @@
     
     <div class="container">
         <header class="header">
-            <img src="img/rogo" alt="ニシムラOnline" class="logo">
+            <img src="img/NishimuraOnline.png" alt="ニシムラOnline" class="logo">
         </header>
 
         <main class="confirm-box">
             <div class="alert-icon">⚠️</div>
             <p class="confirm-text">退会しますか？</p>
             <div class="button-group">
-                <form action="withdraw-complete.php" method="post">
+                <form action="G-7退会完了.php" method="post">
                     <button type="submit" class="btn btn-red">はい</button>
                 </form>
-                <form action="mypage.php" method="get">
+                <form action="home.php" method="get">
                     <button type="submit" class="btn btn-yellow">いいえ</button>
                 </form>
             </div>

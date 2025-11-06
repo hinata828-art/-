@@ -8,11 +8,11 @@
 </head>
 <body>
     <?php require __DIR__ . '/../common/header.php'; ?>
-    <img src="img/rogo" alt="ニシムラOnlineロゴ" class="logo">
+    <img src="img/NishimuraOnline.png" alt="ニシムラOnlineロゴ" class="logo">
     <div class="message">
         退会が完了しました！<br>
         ご利用ありがとうございました！
     </div>
-    <a href="login.php" class="btn">ホーム画面へ</a>
+    <a href="G-1ログインフォーム.php" class="btn">ホーム画面へ</a>
 </body>
 </html>

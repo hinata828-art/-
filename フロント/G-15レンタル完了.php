@@ -1,3 +1,6 @@
+<?php session_start(); ?>
+<?php require 'common/header.php'; ?>
+<?php require 'common/db-connect.php'; ?>
 <?php
 $connect = 'mysql:host='. SERVER . ';dbname='. DBNAME . ';charset=utf8';
 $delivery_days = '未定'; // 初期値（エラー時の表示用）
@@ -34,14 +37,14 @@ try {
     <img src="img/NishimuraOnline.png" alt="ニシムラOnline" class="logo-image">
 
     <div class="message-area">
-        レンタルが完了しました！
+        レンタルが完了しました！！！！
     </div>
 
     <div class="delivery-date">
         お届け日 : <span><?php echo htmlspecialchars($delivery_days); ?>日後</span>
     </div>
 
-    <a href="index.php" class="home-button">ホーム画面へ</a>
+    <a href="G-8.php" class="home-button">ホーム画面へ</a>
 
 </body>
 </html>

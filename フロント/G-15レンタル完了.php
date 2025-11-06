@@ -36,6 +36,7 @@ try {
 
     <div class="message-area">
         レンタルが完了しました！！！！
+        仮変更
     </div>
 
     <div class="delivery-date">

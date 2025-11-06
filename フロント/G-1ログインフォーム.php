@@ -5,10 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ログイン</title>
   <!-- 外部CSSを読み込む -->
-  <link rel="stylesheet" href="../css/G-1.css">
+  <link rel="stylesheet" href="../css/G-1_ログインフォーム.css">
+  <!-- 共通ヘッダーCSS -->
+  <link rel="stylesheet" href="../css/header.css">
+  <!-- パンくずCSS -->
+  <link rel="stylesheet" href="../css/breadcrumb.css">
 </head>
 <body>
+  <!-- ▼ 共通ヘッダー -->
+    <?php require __DIR__ . '/../common/header.php'; ?>
+    <!-- ▲ 共通ヘッダー -->
 
+    <!-- ▼ パンくずリスト -->
+    <?php
+    $breadcrumbs = [
+        ['name' => '現在のページ']
+    ];
+    require __DIR__ . '/../common/breadcrumb.php';
+    ?>
+    <!-- ▲ パンくずリスト -->
+     
   <!-- 🔵 ロゴ画像部分 -->
   <img src="../img/NishimuraOnline.png" alt="企業ロゴ" class="logo">
 

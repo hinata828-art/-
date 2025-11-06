@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>会員登録完了</title>
-    <link rel="stylesheet" href="css/1style.css">
+    <link rel="stylesheet" href="css/G-3会員登録完了.css">
 </head>
 <body>
     <img src="img/NishimuraOnline.png" alt="ニシムラOnlineロゴ" class="logo">

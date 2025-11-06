@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="../css/header.css">
   <!-- パンくずCSS -->
   <link rel="stylesheet" href="../css/breadcrumb.css">
+
 </head>
 <body>
   <!-- ▼ 共通ヘッダー -->
@@ -41,7 +42,7 @@
 
       <p>
         アカウントをお持ちでない方は<br>
-        <a href="G-2.php">会員登録はこちら</a>
+        <a href="G-2会員登録.php">会員登録はこちら</a>
       </p>
     </fieldset>
   </form>

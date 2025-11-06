@@ -29,21 +29,19 @@ try {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>購入完了</title>
-    <link rel="stylesheet" href="G-15レンタル完了画面.css"> 
+    <link rel="stylesheet" href="G-15_rental-finish.css"> 
 </head>
 <body>
     <img src="img/NishimuraOnline.png" alt="ニシムラOnline" class="logo-image">
 
     <div class="message-area">
         レンタルが完了しました！！！！
-        仮変更２回目
     </div>
 
     <div class="delivery-date">
         お届け日 : <span><?php echo htmlspecialchars($delivery_days); ?>日後</span>
     </div>
 
-    <a href="G-8ホーム.php" class="home-button">ホーム画面へ</a>
-
+    <a href="G-8_home.php" class="home-button">ホーム画面へ</a>
 </body>
 </html>

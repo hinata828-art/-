@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/3style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <title>退会完了</title>
+</head>
+<body>
+    <?php require __DIR__ . '/../common/header.php'; ?>
+    <img src="img/rogo" alt="ニシムラOnlineロゴ" class="logo">
+    <div class="message">
+        退会が完了しました！<br>
+        ご利用ありがとうございました！
+    </div>
+    <a href="login.php" class="btn">ホーム画面へ</a>
+</body>
+</html>

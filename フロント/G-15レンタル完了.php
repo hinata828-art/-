@@ -32,8 +32,6 @@ try {
     <link rel="stylesheet" href="G-15レンタル完了画面.css"> 
 </head>
 <body>
-<?php // require 'header.php'; // ヘッダー部分は共通部品として必要に応じて追加 ?> 
-
     <img src="img/NishimuraOnline.png" alt="ニシムラOnline" class="logo-image">
 
     <div class="message-area">
@@ -44,7 +42,7 @@ try {
         お届け日 : <span><?php echo htmlspecialchars($delivery_days); ?>日後</span>
     </div>
 
-    <a href="G-8.php" class="home-button">ホーム画面へ</a>
+    <a href="G-8ホーム.php" class="home-button">ホーム画面へ</a>
 
 </body>
 </html>

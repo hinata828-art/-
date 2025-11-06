@@ -4,7 +4,7 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>画像練習</title>
 </head>
 <body>
     <?php

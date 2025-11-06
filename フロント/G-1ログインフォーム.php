@@ -13,6 +13,7 @@
 
 </head>
 <body>
+
   <!-- ▼ 共通ヘッダー -->
     <?php require __DIR__ . '/../common/header.php'; ?>
     <!-- ▲ 共通ヘッダー -->
@@ -25,27 +26,28 @@
     require __DIR__ . '/../common/breadcrumb.php';
     ?>
     <!-- ▲ パンくずリスト -->
-     
   <!-- 🔵 ロゴ画像部分 -->
   <img src="../img/NishimuraOnline.png" alt="企業ロゴ" class="logo">
-
+ 
   <form method="post" action="/login">
     <h1>ログイン</h1>
     <fieldset>
       <label for="email">メールアドレス</label>
       <input id="email" name="email" type="email" required placeholder="you@example.com">
-
+ 
       <label for="password">パスワード</label>
       <input id="password" name="password" type="password" required placeholder="パスワードを入力">
-
+ 
       <button type="submit">ログイン</button>
-
+ 
       <p>
         アカウントをお持ちでない方は<br>
         <a href="G-2会員登録.php">会員登録はこちら</a>
       </p>
     </fieldset>
   </form>
-
+ 
 </body>
 </html>
+ 
+ 

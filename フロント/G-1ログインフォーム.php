@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ログイン</title>
   <!-- 外部CSSを読み込む -->
-  <link rel="stylesheet" href="../css/G-1.css">
+  <link rel="stylesheet" href="../css/G-1ログインフォーム.css">
 </head>
 <body>
 
@@ -25,7 +25,7 @@
 
       <p>
         アカウントをお持ちでない方は<br>
-        <a href="G-2.php">会員登録はこちら</a>
+        <a href="G-2会員登録.php">会員登録はこちら</a>
       </p>
     </fieldset>
   </form>

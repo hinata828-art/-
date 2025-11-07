@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>退会確認 | ニシムラOnline</title>
     <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="G-6退会確認.css">
+    <link rel="stylesheet" href="G-6_withdrawal-check.css">
 </head>
 <body>
     <?php require __DIR__ . '/../common/header.php'; ?>

@@ -8,7 +8,11 @@
 
         <div class="header-button">
             <div class="header-icon">
+<<<<<<< Updated upstream
                 <a href="G-1_customer-form.php"><img src="../img/icon.png" alt="アカウントアイコン" width="50" height="50"></a>
+=======
+                <a href="G-1ログインフォーム"><img src="../img/icon.png" alt="アカウントアイコン" width="50" height="50"></a>
+>>>>>>> Stashed changes
             </div>
         </div>
 

@@ -1,18 +1,19 @@
 <?php
 session_start();
-require 'db-connect.php'; // DB接続設定ファイル（SERVER, DBNAME, USER, PASS 定義）
+require 'db-connect.php'; // DB接続定数: SERVER, DBNAME, USER, PASS が定義されているファイル
 
-// ログインチェック
+// ログイン確認（必要ならコメントを外す）
+/*
 if (!isset($_SESSION['customer']['customer_id'])) {
     exit('ログイン情報が確認できません。');
 }
+*/
 
 $customer_id = $_SESSION['customer']['customer_id'];
 
-// DB接続情報
 $connect = 'mysql:host=' . SERVER . ';dbname=' . DBNAME . ';charset=utf8';
 
-// 初期値
+// 初期値（取得失敗時用）
 $order_info = [
     'transaction_id' => '---',
     'total_amount' => '---',
@@ -24,12 +25,13 @@ try {
     $pdo = new PDO($connect, USER, PASS);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-    // 顧客の最新購入データを取得
+    // 最新の購入データを1件取得
     $sql = "SELECT transaction_id, total_amount, payment, delivery_status
             FROM transaction
             WHERE customer_id = ?
             ORDER BY transaction_id DESC
             LIMIT 1";
+
     $stmt = $pdo->prepare($sql);
     $stmt->execute([$customer_id]);
     $result = $stmt->fetch(PDO::FETCH_ASSOC);
@@ -50,12 +52,9 @@ try {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>購入完了</title>
-    <link rel="stylesheet" href="../css/G-13_order-complete.css">
+    <link rel="stylesheet" href="G-13_order-complete.css">
 </head>
 <body>
-
-    <!-- 共通ヘッダー（任意） -->
-    <!-- <?php require 'header.php'; ?> -->
 
     <img src="img/NishimuraOnline.png" alt="ニシムラOnline" class="logo-image">
 

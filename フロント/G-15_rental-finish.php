@@ -8,7 +8,7 @@ error_reporting(E_ALL);
 <?php // ヘッダーは通常 <body> 内で読み込みます ?>
 <?php 
 // db-connect.php で $pdo が定義されている
-require '../common/db-connect.php'; 
+require '../common/db_connect.php'; 
 ?>
 <?php
 $delivery_days = '未定'; // 初期値

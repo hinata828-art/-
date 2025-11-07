@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ログイン</title>
   <!-- 外部CSSを読み込む -->
-  <link rel="stylesheet" href="../css/G-1_ログインフォーム.css">
+  <link rel="stylesheet" href="../css/G-1_customer-form.css">
 
 </head>
 <body>

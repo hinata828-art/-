@@ -26,7 +26,7 @@
  
       <p>
         アカウントをお持ちでない方は<br>
-        <a href="G-2会員登録.php">会員登録はこちら</a>
+        <a href="G-2_customer-entry.php">会員登録はこちら</a>
       </p>
     </fieldset>
   </form>

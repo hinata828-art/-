@@ -33,7 +33,7 @@
 
       <p>
         すでにアカウントをお持ちの方は<br>
-        <a href="G-1会員登録.php">ログインはこちら</a>
+        <a href="G-1_customer-form.php">ログインはこちら</a>
       </p>
     </fieldset>
   </form>

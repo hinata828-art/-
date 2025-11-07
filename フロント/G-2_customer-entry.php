@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>会員登録</title>
   <!-- 外部CSSを読み込む -->
-  <link rel="stylesheet" href="../css/G-2会員登録.css">
+  <link rel="stylesheet" href="../css/G-2_customer-entry.css">
 </head>
 <body>
 

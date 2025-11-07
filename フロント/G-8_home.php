@@ -1,3 +1,10 @@
+<?php
+// データベース接続
+require '../common/db_connect.php';
+
+// 必要に応じてデータ取得処理をここに書くことができます
+// 例）$stmt = $pdo->query("SELECT * FROM rental LIMIT 5");
+?>
 <!DOCTYPE html>
 <html lang="ja">
 <head>

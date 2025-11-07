@@ -1,6 +1,6 @@
 <?php session_start(); ?>
-<?php require 'common/header.php'; ?>
-<?php require 'common/db-connect.php'; ?>
+<?php require '../common/header.php'; ?>
+<?php require '../common/db-connect.php'; ?>
 <?php
 $connect = 'mysql:host='. SERVER . ';dbname='. DBNAME . ';charset=utf8';
 $delivery_days = '未定'; // 初期値（エラー時の表示用）
@@ -29,10 +29,10 @@ try {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>購入完了</title>
-    <link rel="stylesheet" href="G-15_rental-finish.css"> 
+    <link rel="stylesheet" href="../css/G-15_rental-finish.css"> 
 </head>
 <body>
-    <img src="img/NishimuraOnline.png" alt="ニシムラOnline" class="logo-image">
+    <img src="../img/NishimuraOnline.png" alt="ニシムラOnline" class="logo-image">
 
     <div class="message-area">
         レンタルが完了しました！！！！
@@ -42,6 +42,6 @@ try {
         お届け日 : <span><?php echo htmlspecialchars($delivery_days); ?>日後</span>
     </div>
 
-    <a href="G-8_home.php" class="home-button">ホーム画面へ</a>
+    <a href="../G-8_home.php" class="home-button">ホーム画面へ</a>
 </body>
 </html>

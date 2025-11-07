@@ -12,7 +12,7 @@
     <!-- パンくずCSS -->
     <link rel="stylesheet" href="../css/breadcrumb.css">
     <!-- ページ固有CSS -->
-    <link rel="stylesheet" href="../css/G-8home.css">
+    <link rel="stylesheet" href="../css/G-8_home.css">
 </head>
 
 <body>

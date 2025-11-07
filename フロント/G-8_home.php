@@ -97,6 +97,53 @@
             slider.scrollBy({ left: 300, behavior: 'smooth' });
         });
     </script>
+
+    <section class="category-section">
+    <div class="category-buttons">
+
+        <a href="G-12_tv.php" class="category-item">
+            <img src="../img/tv.png" alt="テレビ">
+            <p>テレビ</p>
+        </a>
+
+        <a href="G-13_refrigerator.php" class="category-item">
+            <img src="../img/refrigerator.png" alt="冷蔵庫">
+            <p>冷蔵庫</p>
+        </a>
+
+        <a href="G-14_microwave.php" class="category-item">
+            <img src="../img/microwave.png" alt="電子レンジ">
+            <p>電子レンジ</p>
+        </a>
+
+        <a href="G-15_camera.php" class="category-item">
+            <img src="../img/camera.png" alt="カメラ">
+            <p>カメラ</p>
+        </a>
+
+        <a href="G-16_headphone.php" class="category-item">
+            <img src="../img/headphone.png" alt="ヘッドホン">
+            <p>ヘッドホン</p>
+        </a>
+
+        <a href="G-17_washing.php" class="category-item">
+            <img src="../img/washing.png" alt="洗濯機">
+            <p>洗濯機</p>
+        </a>
+
+        <a href="G-18_laptop.php" class="category-item">
+            <img src="../img/laptop.png" alt="ノートPC">
+            <p>ノートPC</p>
+        </a>
+
+        <a href="G-19_smartphone.php" class="category-item">
+            <img src="../img/smartphone.png" alt="スマートフォン">
+            <p>スマートフォン</p>
+        </a>
+
+    </div>
+</section>
+
 </main>
 
 

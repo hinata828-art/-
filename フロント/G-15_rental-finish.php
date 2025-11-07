@@ -50,6 +50,7 @@ if (isset($_SESSION['last_transaction_id'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>購入完了</title>
     <link rel="stylesheet" href="../css/G-15_rental-finish.css"> 
+    <link rel="stylesheet" href="../css/header.css">
 </head>
 <body>
     

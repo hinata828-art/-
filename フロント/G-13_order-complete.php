@@ -3,11 +3,9 @@ session_start();
 require 'db-connect.php'; // DB接続定数: SERVER, DBNAME, USER, PASS が定義されているファイル
 
 // ログイン確認（必要ならコメントを外す）
-/*
 if (!isset($_SESSION['customer']['customer_id'])) {
     exit('ログイン情報が確認できません。');
 }
-*/
 
 $customer_id = $_SESSION['customer']['customer_id'];
 

@@ -14,6 +14,6 @@
         </body>
         </html>
     </div>
-    <a href="G-1_ログインフォーム.php" class="btn">ログイン画面へ</a>
+    <a href="G-1_customer-form.php" class="btn">ログイン画面へ</a>
 </body>
 </html>
